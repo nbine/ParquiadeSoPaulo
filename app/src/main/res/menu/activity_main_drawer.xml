@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_menu_inicio"
+            android:title="@string/menu_inicio" />
+        <item
+            android:id="@+id/nav_historial"
+            android:icon="@drawable/ic_menu_historial"
+            android:title="@string/menu_historial" />
+        <item
+            android:id="@+id/nav_conselho"
+            android:icon="@drawable/ic_menu_conselho"
+            android:title="@string/menu_conselho" />
+        <item
+            android:id="@+id/nav_pastoral"
+            android:icon="@drawable/ic_menu_pastoral"
+            android:title="@string/menu_pastoral" />
+
+    </group>
+
+    <item android:title="Entre em Contacto">
+        <menu>
+            <item
+                android:id="@+id/nav_contacto"
+                android:icon="@drawable/ic_menu_contacto"
+                android:title="@string/menu_contacto" />
+            <item
+                android:id="@+id/nav_sobre"
+                android:icon="@drawable/ic_menu_sobre"
+                android:title="@string/menu_sobre" />
+        </menu>
+    </item>
+
+</menu>
